@@ -1,5 +1,4 @@
-print("Introduce your income")
-taxes = int(input())
+taxes = int(input("Introduce your income\n"))
 if taxes < 100000:
     print("5% taxes")
 elif taxes >= 100000 and taxes < 200000:
