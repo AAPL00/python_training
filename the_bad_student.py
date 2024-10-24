@@ -13,9 +13,9 @@ for subject in list_of_subjects:
     if score > 2:
         print("Estuve aqui")
         list_of_subjects.remove(subject)
-reprobed_subjects = "You reprobed"
+reprobed_subjects = "You reprobed "
 for subject in list_of_subjects:
-    reprobed_subjects += (" " + subject)
+    reprobed_subjects += (subject + ", ")
 print(reprobed_subjects)    
     
     
