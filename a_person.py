@@ -24,8 +24,8 @@ class Person:
             return ("Not a valid ci")
     
     def show(self):
-        return self.name, self.age, self.ci
-    
+        return (self.name, self.age, self.ci)  #Si el return de una función posee más de un elemento este se convierte en
+                                               #tupla y por buenas prácticas se recomienda encerrarlo entre paréntesis
     def get_name(self):
         return self.name
     
